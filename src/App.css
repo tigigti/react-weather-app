@@ -1,0 +1,26 @@
+.container {
+  padding: 24px 8px;
+  position: relative;
+  background-image: linear-gradient(#93cede, #34798c);
+  height: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 481px) {
+  .container {
+    padding: 24px 20px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    padding: 36px 40px;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+.weather-container__title {
+  font-weight: normal;
+}
+
+.weather-container__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.weather-container__row h1 {
+  margin: 0;
+}
